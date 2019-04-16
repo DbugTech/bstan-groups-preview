@@ -1,0 +1,79 @@
+/* flaticon2s */
+@font-face {
+    font-family: flaticon2;
+    src: url(../fonts/flaticon2/flaticon2.eot);
+    src: url(../fonts/flaticon2/flaticon2d41d.eot?#iefix) format("embedded-opentype"), url(../fonts/flaticon2/flaticon2.woff) format("woff"), url(../fonts/flaticon2/flaticon2.ttf) format("truetype"), url(../fonts/flaticon2/flaticon2.svg#flaticon2) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: flaticon2;
+        src: url(../fonts/flaticon2/flaticon2.svg#flaticon2) format("svg")
+    }
+}
+
+[class*=" flaticon2-"]:after,
+[class*=" flaticon2-"]:before,
+[class^=flaticon2-]:after,
+[class^=flaticon2-]:before {
+    font-family: flaticon2;
+    font-style: normal;
+}
+
+.flaticon2-life-insurence:before {
+    content: "\f100"
+}
+
+.flaticon2-mortgage:before {
+    content: "\f101"
+}
+
+.flaticon2-car:before {
+    content: "\f102"
+}
+
+.flaticon2-agriculture:before {
+    content: "\f103"
+}
+
+.flaticon2-bars:before {
+    content: "\f104"
+}
+
+.flaticon2-health-insurance:before {
+    content: "\f105"
+}
+
+.flaticon2-partner:before {
+    content: "\f106"
+}
+
+.flaticon2-car-1:before {
+    content: "\f107"
+}
+
+.flaticon2-lock:before {
+    content: "\f108"
+}
+
+.flaticon2-lab:before {
+    content: "\f109"
+}
+
+.flaticon2-planning:before {
+    content: "\f10a"
+}
+
+.flaticon2-businessman:before {
+    content: "\f10b"
+}
+
+.flaticon2-mind:before {
+    content: "\f10c"
+}
+
+.flaticon2-van:before {
+    content: "\f10d"
+}
