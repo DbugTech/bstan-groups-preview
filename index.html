@@ -13,8 +13,8 @@
 <link href="css/style.css" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
 
-<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-<link rel="icon" href="images/favicon.png" type="image/x-icon">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,9 +24,9 @@
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 </head>
 
-<body>
+<body data-spy="scroll">
 
-<div class="page-wrapper">
+<div class="page-wrapper" >
  	
     <!-- Preloader -->
     <div class="preloader"></div>
@@ -60,14 +60,17 @@
 
 							<div class="navbar-collapse collapse scroll-nav clearfix" id="navbarSupportedContent">
 								<ul class="navigation clearfix">
-									<li class="current"><a href="#home">Home</a>
+									<li class="current"><a data-scroll-nav="1" href="#home">Home</a>
 									</li>
-									<li><a href="#about">About Us</a></li>
-									<li ><a href="#services">Services</a>
+									<li><a data-scroll-nav="2" href="#about">About Us</a></li>
+									<li ><a data-scroll-nav="3" href="#services">Services</a>
 									</li>
-									<li><a href="#team">Team</a>
+									<li ><a data-scroll-nav="4" href="#subsidiaries">Subsidiaries</a>
 									</li>
-									<li><a href="#contact">Contact Us</a></li>
+									<li ><a data-scroll-nav="5" href="#projects">Projects</a>
+									</li>
+									<li><a data-scroll-nav="6" href="#team">Team</a>
+									</li>
 								</ul>
 							</div>
 							
@@ -131,7 +134,7 @@
     <!-- End Main Header -->
 
 	<!--Main Slider-->
-    <section id="home" class="main-slider">
+    <section data-scroll-index="1" id="home" class="main-slider">
         
         <div class="rev_slider_wrapper fullwidthbanner-container"  id="rev_slider_one_wrapper" data-source="gallery">
             <div class="rev_slider fullwidthabanner" id="rev_slider_one" data-version="5.4.1">
@@ -274,7 +277,7 @@
     <!--End Main Slider-->
 	
 	<!-- About Section -->
-	<section id="about" class="about-section">
+	<section data-scroll-index="2" id="about" class="about-section">
 		<div class="pattern-layer" style="background-image:url(images/background/pattern-1.png)"></div>
 		<div class="auto-container">
 			<!-- Title Box -->
@@ -345,7 +348,7 @@
 	<!-- End About Section -->
 	
 	<!-- Fullwidth Section -->
-	<section class="container-fluid">
+	<section data-scroll-index="3" id="services" class="container-fluid">
 		<div class="pattern-layer paroller" data-paroller-factor="0.10" data-paroller-factor-lg="0.10" data-paroller-factor-md="0.10" data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="horizontal" style="background-image:url(images/background/pattern-2.png)"></div>
 		<div class="outer-section">
 			<div class="clearfix">
@@ -443,7 +446,7 @@
 	</section>
 	
 	<!-- Story Section -->
-	<section class="story-section">
+	<section data-scroll-index="4" id="subsidiaries" class="story-section">
 		<div class="auto-container">
 			
 			<!-- Story Block -->
@@ -467,13 +470,15 @@
 							<div class="sec-title">
 								<div class="inner-title">
 									<div class="title">subsidiaries of BSTAN</div>
-									<h2>Power of Decysions.</h2>
+									<h2>Bstan Homes.</h2>
 								</div>
 							</div>
 							<div class="inner-column wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
 								<div class="text">
-									<p>Convenire gubergren ex vix. Habeo facete pri ei. Putent maluisset intellegam vix te, vim prompta facilisi interesset te. An denique praesent pro, in <span>torquatos adipiscing pro,</span> pro no odio modus. Mea malis summo ut. Ex ipsum dolore assueverit nec, facer imperdiet et duo, cu postea laoreet vulputate has.</p>
-									<p>Beyond more stoic this along goodness hey this this wow manatee mongoose one as since a far flustered impressive manifest far crud opened inside owing punitively around</p>
+									<p>At Bstan Homes we are one of the <mark>foremost leading real estate</mark>foremost leading real estate and homeowner service company from Africa, always exceeding our customers’ expectations. As we provide the most professional, informative, loyal and dedicated service in the industry. </p>
+									<p>The best interests of our clients will always come first and we will place the clients’ concerns ahead of our own in each and every transaction, as we are dedicated to the development of long-term client relationships! Our team-approach philosophy ensures your needs are important to each and every member of our organization.</p>
+									<a href="#" class="theme-btn btn-style-two">learn more</a>
+
 								</div>
 							</div>
 						</div>
@@ -503,13 +508,20 @@
 							<div class="sec-title">
 								<div class="inner-title">
 									<!-- <div class="title">subsidiaries of BSTAN</div> -->
-									<h2>Strength of Planning .</h2>
+									<h2>Bstan Security Services.</h2>
 								</div>
 							</div>
 							<div class="inner-column wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
 								<div class="text">
-									<p>Convenire gubergren ex vix. Habeo facete pri ei. Putent maluisset intellegam vix te, vim prompta facilisi interesset te. An denique praesent pro, in torquatos <strong>adipiscing pro pro no odio modus.</strong> Mea malis summo ut. Ex ipsum dolore assueverit nec, facer imperdiet et duo, cu postea laoreet vulputate has.</p>
-									<p>Beyond <span>more stoic this along goodness hey</span> this this wow manatee mongoose one as since a far flustered impressive manifest far crud opened inside owing punitively around</p>
+									<p><span>Bstan Security Services</span> is a subsidiary of Bstan Group; it is poised to becoming a renowned and responsive
+											industrial security service provider of repute to reckon with. Our core value is to become the leading provider
+											of superior intelligence and security services to Nigerians.</p>
+
+											<p>Bstan Security Services is duly registered with the cor-
+													porate Affairs Commission. Our Rc 1474233, We are also recognized by the Nigeria Security and Civil De-
+													fense Corp. (NSCDC)</p>
+										<a href="#" class="theme-btn btn-style-two">learn more</a>
+
 								</div>
 							</div>
 						</div>
@@ -538,13 +550,17 @@
 										<div class="sec-title">
 											<div class="inner-title">
 												<!-- <div class="title">story of Intenax</div> -->
-												<h2>Power of Decysions.</h2>
+												<h2>Bstan Construction Limited.</h2>
 											</div>
 										</div>
 										<div class="inner-column wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
 											<div class="text">
-												<p>Convenire gubergren ex vix. Habeo facete pri ei. Putent maluisset intellegam vix te, vim prompta facilisi interesset te. An denique praesent pro, in <span>torquatos adipiscing pro,</span> pro no odio modus. Mea malis summo ut. Ex ipsum dolore assueverit nec, facer imperdiet et duo, cu postea laoreet vulputate has.</p>
-												<p>Beyond more stoic this along goodness hey this this wow manatee mongoose one as since a far flustered impressive manifest far crud opened inside owing punitively around</p>
+												<p> <span>BSTAN CONSTRUCTION</span> is the Leader in providing value added Construction services to
+														Customersby creating succesful Patnerships with them exceeding their expectations and
+														gaining trust through exceptional performance. We Deliver landmark projects that create
+														long term progress and economic growth in areas of Operation.</p>
+										<a href="#" class="theme-btn btn-style-two">learn more</a>
+
 											</div>
 										</div>
 									</div>
@@ -552,6 +568,48 @@
 								</div>
 							</div>
 						</div>
+						<!-- Story Block Two -->
+			<div class="story-block-two">
+				<div class="pattern-layer" style="background-image:url(images/background/pattern-3.png)"></div>
+				<div class="inner-box">
+					<div class="clearfix">
+						
+						<!-- Image Column -->
+						<div class="image-column col-lg-6 col-md-12 col-sm-12">
+							<div class="inner-column wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+								<div class="image">
+									<img src="https://via.placeholder.com/619x450" alt="" />
+								</div>
+							</div>
+						</div>
+						
+						<!-- Content Column -->
+						<div class="content-column col-lg-6 col-md-12 col-sm-12">
+							<!-- Sec Title -->
+							<div class="sec-title">
+								<div class="inner-title">
+									<!-- <div class="title">subsidiaries of BSTAN</div> -->
+									<h2>Bstan Cleaning Service.</h2>
+								</div>
+							</div>
+							<div class="inner-column wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+								<div class="text">
+									<p><span> BSTAN CLEANING SERVICES </span> is one of the leading home service company in Nigeria, a com-
+											pany created with the sole purpose of rendering services to corporate organizations and Indus-
+											tries in the areas of <mark>providing quality janitorial/housekeeping</mark>  services. We effectively handle
+											facade cleaning, fumigation/pest control, Waste disposals (solid & liquid), Restoration of floors,
+											Mechanized tree trimming, Landscaping, etc. </p>
+											<p>Our services are designed to meet all classes of
+													business needs to suit the desire and budget of our Clients.</p>
+										<a href="#" class="theme-btn btn-style-two">learn more</a>
+
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
 			
 		</div>
 	</section>
@@ -566,7 +624,7 @@
 					<!-- Sec Title -->
 					<div class="sec-title">
 						<div class="inner-title">
-							<h2>Providing Customized Design <br> Solutions That Fits Every Space .</h2>
+							<h2>Providing<br> Solutions That Fits Every Space .</h2>
 							<div class="text">Beyond more stoic this along goodness hey this this wow manate <br> far impressive manifest farcrud opened inside.</div>
 						</div>
 					</div>
@@ -578,9 +636,9 @@
 						
 							<!--Tab Btns-->
 							<ul class="tab-btns tab-buttons clearfix">
-								<li data-tab="#prod-innovation" class="tab-btn active-btn">innovation</li>
-								<li data-tab="#prod-assurance" class="tab-btn">assurance</li>
-								<li data-tab="#prod-precision" class="tab-btn">precision</li>
+								<li data-tab="#prod-innovation" class="tab-btn active-btn">Our Mission</li>
+								<li data-tab="#prod-assurance" class="tab-btn">Our Vision</li>
+								<li data-tab="#prod-precision" class="tab-btn">Core Values</li>
 							</ul>
 							
 							<!--Tabs Container-->
@@ -589,24 +647,37 @@
 								<!--Tab / Active Tab-->
 								<div class="tab active-tab" id="prod-innovation">
 									<div class="content">
-										<div class="text">Fustered impressive manifest crud opened inside owing punitively around forewent and after wasteful telling sprang coldly and spoke less clients. Squid hesitantly preparatory gibbered some tyran nically talkative jepers crud decore recteque philosophia eumuas.</div>
-										<a href="#" class="theme-btn btn-style-two">learn more</a>
+										<div class="text">To provide reliable and effec-
+											tive services to our
+											numerous clients with highest
+											quality of professionalism and efficieny. </div>
+										<!-- <a href="#" class="theme-btn btn-style-two">learn more</a> -->
 									</div>
 								</div>
 								
 								<!-- Tab -->
 								<div class="tab" id="prod-assurance">
 									<div class="content">
-										<div class="text">Fustered impressive manifest crud opened inside owing punitively around forewent and after wasteful telling sprang coldly and spoke less clients. Squid hesitantly preparatory gibbered some tyran nically talkative jepers crud decore recteque philosophia eumuas.</div>
-										<a href="#" class="theme-btn btn-style-two">learn more</a>
+										<div class="text">Our Vision is to provide trustworthy
+											and quality service that will
+											far exceed the customers expectations.</div>
+										<!-- <a href="#" class="theme-btn btn-style-two">learn more</a> -->
 									</div>
 								</div>
 								
 								<!-- Tab -->
 								<div class="tab" id="prod-precision">
 									<div class="content">
-										<div class="text">Fustered impressive manifest crud opened inside owing punitively around forewent and after wasteful telling sprang coldly and spoke less clients. Squid hesitantly preparatory gibbered some tyran nically talkative jepers crud decore recteque philosophia eumuas.</div>
-										<a href="#" class="theme-btn btn-style-two">learn more</a>
+										<!-- <div class="text">Fustered impressive manifest crud opened inside owing punitively around forewent and after wasteful telling sprang coldly and spoke less clients. Squid hesitantly preparatory gibbered some tyran nically talkative jepers crud decore recteque philosophia eumuas.</div> -->
+										<!-- <a href="#" class="theme-btn btn-style-two">learn more</a> -->
+										<ul>
+											<li>Integrity</li>
+											<li>Intelligence</li>
+											<li>Reliable</li>
+											<li>Great Customer Experience </li>
+											<li>On Time Delivery </li>
+											<li>Excellence</li>
+										</ul>
 									</div>
 								</div>
 
@@ -621,7 +692,7 @@
 	<!-- End Product Tab Section -->
 	
 	<!-- Projects Section -->
-	<section class="projects-section">
+	<section data-scroll-index="5" id="projects" class="projects-section">
 		<div class="pattern-layer" style="background-image:url(images/background/pattern-4.png)"></div>
 		<div class="outer-container">
 			<div class="clearfix">
@@ -632,12 +703,14 @@
 					<div class="project-block">
 						<div class="inner-box">
 							<div class="image">
-								<img src="images/gallery/1.jpg" alt="" />
+								<!-- <img src="images/gallery/1.jpg" alt="" /> -->
+								<img src="https://via.placeholder.com/480x350" alt="" />
+
 								<!-- Overlay Box -->
 								<div class="overlay-box">
 									<div class="overlay-inner">
 										<div class="overlay-content">
-											<a class="plus" href="images/gallery/1.jpg" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
+											<a class="plus" href="https://via.placeholder.com/480x35" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
 											<h3><a href="team.html">Portion Interior</a></h3>
 											<div class="category">Home Design</div>
 										</div>
@@ -652,12 +725,14 @@
 					<div class="project-block">
 						<div class="inner-box">
 							<div class="image">
-								<img src="images/gallery/2.jpg" alt="" />
+								<!-- <img src="images/gallery/2.jpg" alt="" /> -->
+								<img src="https://via.placeholder.com/480x350/999999/efefef" alt="" />
+
 								<!-- Overlay Box -->
 								<div class="overlay-box">
 									<div class="overlay-inner">
 										<div class="overlay-content">
-											<a class="plus" href="images/gallery/2.jpg" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
+											<a class="plus" href="https://via.placeholder.com/480x350" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
 											<h3><a href="team.html">Portion Interior</a></h3>
 											<div class="category">Home Design</div>
 										</div>
@@ -676,12 +751,13 @@
 					<div class="project-block">
 						<div class="inner-box">
 							<div class="image">
-								<img src="images/gallery/3.jpg" alt="" />
+								<!-- <img src="images/gallery/3.jpg" alt="" /> -->
+								<img src="https://via.placeholder.com/480x700/ececec/222222/" alt="" />
 								<!-- Overlay Box -->
 								<div class="overlay-box">
 									<div class="overlay-inner">
 										<div class="overlay-content">
-											<a class="plus" href="images/gallery/3.jpg" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
+											<a class="plus" href="https://via.placeholder.com/480x700/ececec/222222/" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
 											<h3><a href="team.html">Portion Interior</a></h3>
 											<div class="category">Home Design</div>
 										</div>
@@ -700,12 +776,14 @@
 					<div class="project-block">
 						<div class="inner-box">
 							<div class="image">
-								<img src="images/gallery/4.jpg" alt="" />
+								<!-- <img src="images/gallery/4.jpg" alt="" /> -->
+								<img src="https://via.placeholder.com/480x350" alt="" />
+
 								<!-- Overlay Box -->
 								<div class="overlay-box">
 									<div class="overlay-inner">
 										<div class="overlay-content">
-											<a class="plus" href="images/gallery/4.jpg" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
+											<a class="plus" href="https://via.placeholder.com/480x350" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
 											<h3><a href="team.html">Portion Interior</a></h3>
 											<div class="category">Home Design</div>
 										</div>
@@ -720,14 +798,15 @@
 					<div class="project-block">
 						<div class="inner-box">
 							<div class="image">
-								<img src="images/gallery/5.jpg" alt="" />
+								<!-- <img src="images/gallery/5.jpg" alt="" /> -->
+								<img src="https://via.placeholder.com/480x350/333333/ffffff/" alt="" />
 								<!-- Overlay Box -->
 								<div class="overlay-box">
 									<div class="overlay-inner">
 										<div class="overlay-content">
-											<a class="plus" href="images/gallery/5.jpg" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
-											<h3><a href="team.html">Portion Interior</a></h3>
-											<div class="category">Home Design</div>
+											<a class="plus" href="ihttps://via.placeholder.com/480x350" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
+											<h3><a href="team.html">Zenith Bank</a></h3>
+											<div class="category">Janitorial Services</div>
 										</div>
 									</div>
 								</div>	
@@ -744,14 +823,15 @@
 					<div class="project-block">
 						<div class="inner-box">
 							<div class="image">
-								<img src="images/gallery/6.jpg" alt="" />
+								<img src="https://via.placeholder.com/480x350/333333/ffffff/" alt="" />
+
 								<!-- Overlay Box -->
 								<div class="overlay-box">
 									<div class="overlay-inner">
 										<div class="overlay-content">
-											<a class="plus" href="images/gallery/6.jpg" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
-											<h3><a href="team.html">Portion Interior</a></h3>
-											<div class="category">Home Design</div>
+											<a class="plus" href="https://via.placeholder.com/480x350" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
+											<h3><a href="team.html">Dog Patrol and Surveilance</a></h3>
+											<div class="category">Security Services</div>
 										</div>
 									</div>
 								</div>	
@@ -764,14 +844,15 @@
 					<div class="project-block">
 						<div class="inner-box">
 							<div class="image">
-								<img src="images/gallery/7.jpg" alt="" />
+								<!-- <img src="images/gallery/7.jpg" alt="" /> -->
+								<img src="https://via.placeholder.com/480x350" alt="" />
 								<!-- Overlay Box -->
 								<div class="overlay-box">
 									<div class="overlay-inner">
 										<div class="overlay-content">
-											<a class="plus" href="images/gallery/7.jpg" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
-											<h3><a href="team.html">Portion Interior</a></h3>
-											<div class="category">Home Design</div>
+											<a class="plus" href="https://via.placeholder.com/480x350" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
+											<h3><a href="team.html">Architecture</a></h3>
+											<div class="category">Construction</div>
 										</div>
 									</div>
 								</div>	
@@ -779,7 +860,7 @@
 							</div>
 						</div>
 					</div>
-					
+
 				</div>
 				
 			</div>
@@ -809,7 +890,7 @@
 						</div>
 						<div class="content-box">
 							<div class="count-box">
-								<span class="count-text" data-speed="3500" data-stop="310">0</span>
+								<span class="count-text" data-speed="3500" data-stop="53">0</span>+
 							</div>
 							<div class="text">projects completed</div>
 						</div>
@@ -821,9 +902,9 @@
 					<div class="inner-box row">
 						<div class="content-box">
 							<div class="count-box">
-								<span class="count-text" data-speed="2500" data-stop="16">0</span>
+								<span class="count-text" data-speed="2500" data-stop="20">0</span>+
 							</div>
-							<div class="text">crazy thinkers</div>
+							<div class="text">innovative thinkers</div>
 						</div>
 						<div class="image">
 							<a href="#"><img src="images/resource/counter-2.jpg" alt="" /></a>
@@ -839,7 +920,7 @@
 						</div>
 						<div class="content-box">
 							<div class="count-box">
-								<span class="count-text" data-speed="3500" data-stop="25">0</span>
+								<span class="count-text" data-speed="3500" data-stop="15">0</span>
 							</div>
 							<div class="text">Years of expertise</div>
 						</div>
@@ -851,7 +932,7 @@
 					<div class="inner-box row">
 						<div class="content-box">
 							<div class="count-box">
-								<span class="count-text" data-speed="3500" data-stop="7">0</span>K
+								<span class="count-text" data-speed="3500" data-stop="17">0</span>K
 							</div>
 							<div class="text">hours of work</div>
 						</div>
@@ -875,7 +956,7 @@
 				<div class="testimonial-block">
 					<div class="inner-box">
 						<div class="quote-icon flaticon-left-quote"></div>
-						<div class="title">- INTENAX -</div>
+						<div class="title">- BSTAN GROUP -</div>
 						<div class="text">Habeo facete pri ei. Putent maluisset intellegam vix te, vim prompta facilisi interesset te. An denique praesent pro torquatos adipiscing pro, pro no odio modus. Mea malis summo ut. Ex ipsum dolore assueverit nec, facer imperdiet etduo, cu postea laoreet vulputate has. Beyond more stoic this along goodness hey this this wow manatee mongoose one as since a far flustered impressive manifest far crud opened inside owing punitively around</div>
 						<div class="author-name">thomas henry</div>
 					</div>
@@ -885,7 +966,7 @@
 				<div class="testimonial-block">
 					<div class="inner-box">
 						<div class="quote-icon flaticon-left-quote"></div>
-						<div class="title">- INTENAX -</div>
+						<div class="title">- BSTAN GROUP -</div>
 						<div class="text">Habeo facete pri ei. Putent maluisset intellegam vix te, vim prompta facilisi interesset te. An denique praesent pro torquatos adipiscing pro, pro no odio modus. Mea malis summo ut. Ex ipsum dolore assueverit nec, facer imperdiet etduo, cu postea laoreet vulputate has. Beyond more stoic this along goodness hey this this wow manatee mongoose one as since a far flustered impressive manifest far crud opened inside owing punitively around</div>
 						<div class="author-name">thomas henry</div>
 					</div>
@@ -895,7 +976,7 @@
 				<div class="testimonial-block">
 					<div class="inner-box">
 						<div class="quote-icon flaticon-left-quote"></div>
-						<div class="title">- INTENAX -</div>
+						<div class="title">- BSTAN GROUP -</div>
 						<div class="text">Habeo facete pri ei. Putent maluisset intellegam vix te, vim prompta facilisi interesset te. An denique praesent pro torquatos adipiscing pro, pro no odio modus. Mea malis summo ut. Ex ipsum dolore assueverit nec, facer imperdiet etduo, cu postea laoreet vulputate has. Beyond more stoic this along goodness hey this this wow manatee mongoose one as since a far flustered impressive manifest far crud opened inside owing punitively around</div>
 						<div class="author-name">thomas henry</div>
 					</div>
@@ -907,7 +988,7 @@
 	<!-- End Testimonial Section -->
 	
 	<!-- Team Section -->
-	<section id="team" class="team-section">
+	<section data-scroll-index="6" id="team" class="team-section">
 		<div class="pattern-layer" style="background-image:url(images/background/pattern-6.png)"></div>
 		<div class="auto-container">
 			<!-- Title Box -->
@@ -915,12 +996,12 @@
 				<div class="row clearfix">
 					<div class="col-lg-5 col-md-12 col-sm-12">
 						<div class="inner-title">
-							<div class="title">Passionate team</div>
+							<div class="title">Our Passionate team</div>
 							<h2>Creative Minds Always <br> Think Someting .</h2>
 						</div>
 					</div>
 					<div class="col-lg-7 col-md-12 col-sm-12">
-						<div class="text">Bar flustered impressive manifest far crud opened inside owing punitively around forewent and after wasteful telling sprang coldly and spoke less clients.</div>
+						<div class="text">Our team-approach philosophy ensures your needs are important to each and every member of our organization.</div>
 					</div>
 				</div>
 			</div>
@@ -931,8 +1012,10 @@
 				<div class="team-block col-lg-3 col-md-6 col-sm-12">
 					<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
 						<div class="image">
-							<img src="images/resource/team-1.jpg" alt="" />
-							<div class="overlay-box">
+							<!-- <img src="images/resource/team-1.jpg" alt="" /> -->
+							<img src="https://via.placeholder.com/263x304/?text=Team+Member+Image" alt="" />
+
+							<!-- <div class="overlay-box">
 								<div class="overlay-inner">
 									<div class="content">
 										<div class="phone"><span>Phone:</span> <a href="tel:+12345018607">+1 (234) 501 8607</a></div>
@@ -944,7 +1027,7 @@
 										</ul>
 									</div>
 								</div>
-							</div>
+							</div> -->
 						</div>
 						<div class="lower-content">
 							<h3><a href="about-me.html">Robert Vyner</a></h3>
@@ -957,8 +1040,10 @@
 				<div class="team-block col-lg-3 col-md-6 col-sm-12">
 					<div class="inner-box wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
 						<div class="image">
-							<img src="images/resource/team-2.jpg" alt="" />
-							<div class="overlay-box">
+							<!-- <img src="images/resource/team-2.jpg" alt="" /> -->
+							<img src="https://via.placeholder.com/263x304/?text=Team+Member+Image" alt="" />
+
+							<!-- <div class="overlay-box">
 								<div class="overlay-inner">
 									<div class="content">
 										<div class="phone"><span>Phone:</span> <a href="tel:+12345018607">+1 (234) 501 8607</a></div>
@@ -970,7 +1055,7 @@
 										</ul>
 									</div>
 								</div>
-							</div>
+							</div> -->
 						</div>
 						<div class="lower-content">
 							<h3><a href="about-me.html">Scott K. Irvine</a></h3>
@@ -983,8 +1068,10 @@
 				<div class="team-block col-lg-3 col-md-6 col-sm-12">
 					<div class="inner-box wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
 						<div class="image">
-							<img src="images/resource/team-3.jpg" alt="" />
-							<div class="overlay-box">
+							<!-- <img src="images/resource/team-3.jpg" alt="" /> -->
+							<img src="https://via.placeholder.com/263x304/?text=Team+Member+Image" alt="" />
+
+							<!-- <div class="overlay-box">
 								<div class="overlay-inner">
 									<div class="content">
 										<div class="phone"><span>Phone:</span> <a href="tel:+12345018607">+1 (234) 501 8607</a></div>
@@ -996,7 +1083,7 @@
 										</ul>
 									</div>
 								</div>
-							</div>
+							</div> -->
 						</div>
 						<div class="lower-content">
 							<h3><a href="about-me.html">Winnie Jones</a></h3>
@@ -1009,8 +1096,10 @@
 				<div class="team-block col-lg-3 col-md-6 col-sm-12">
 					<div class="inner-box wow fadeInLeft" data-wow-delay="900ms" data-wow-duration="1500ms">
 						<div class="image">
-							<img src="images/resource/team-4.jpg" alt="" />
-							<div class="overlay-box">
+							<!-- <img src="images/resource/team-4.jpg" alt="" /> -->
+							<img src="https://via.placeholder.com/263x304/?text=Team+Member+Image" alt="" />
+
+							<!-- <div class="overlay-box">
 								<div class="overlay-inner">
 									<div class="content">
 										<div class="phone"><span>Phone:</span> <a href="tel:+12345018607">+1 (234) 501 8607</a></div>
@@ -1022,7 +1111,7 @@
 										</ul>
 									</div>
 								</div>
-							</div>
+							</div> -->
 						</div>
 						<div class="lower-content">
 							<h3><a href="about-me.html">Lewis Kubica</a></h3>
@@ -1044,14 +1133,12 @@
             <div class="sponsors-outer">
                 <!--Sponsors Carousel-->
                 <ul class="sponsors-carousel owl-carousel owl-theme">
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/4.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/5.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></figure></li>
+                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="https://via.placeholder.com/190x100?text=client+logo" alt=""></a></figure></li>
+                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="https://via.placeholder.com/190x100?text=client+logo" alt=""></a></figure></li>
+                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="https://via.placeholder.com/190x100?text=client+logo" alt=""></a></figure></li>
+                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="https://via.placeholder.com/190x100?text=client+logo" alt=""></a></figure></li>
+                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="https://via.placeholder.com/190x100?text=client+logo" alt=""></a></figure></li>
+                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="https://via.placeholder.com/190x100?text=client+logo" alt=""></a></figure></li>
                 </ul>
             </div>
             
@@ -1068,16 +1155,16 @@
 				<div class="title-column col-lg-5 col-md-12 col-sm-12">
 					<div class="inner-column">
 						<h2>Bstan Group</h2>
-						<div class="text">Beyond more stoic this along goodness hey this news far flustered impressive manifest after all.</div>
+						<div class="text">We only send pertinent information and occassionally, and never disclose your email address. Read our <a href="">privacy policy</a></div>
 					</div>
 				</div>
 				<!-- Form Column -->
 				<div class="form-column col-lg-7 col-md-12 col-sm-12">
 					<div class="inner-column">
-						<h3>Subscribe to Our Weekly Newsleter</h3>
+						<h3>Subscribe to Our Newsleter</h3>
 						<!-- Subscribe Form -->
 						<div class="subscribe-form">
-							<form method="post" action="http://t.commonsupport.com/intenax/contact.html">
+							<form method="post" action="#">
 								<div class="form-group">
 									<input type="email" name="email" value="" placeholder="" required>
 									<button type="submit" class="theme-btn btn-style-one">subscribe</button>
@@ -1110,8 +1197,8 @@
 										<li><a href="#"><span class="fa fa-facebook-f"></span></a></li>
 										<li><a href="#"><span class="fa fa-linkedin"></span></a></li>
 									</ul>
-									<div class="text">Sit eit malis civibus kase iuvaret bandit no kec, ipsum volumus indis aissentias referrentur vix euno utamur.</div>
-									<div class="copyright"><span>Bstan Group</span> <br> &copy; All rights reserved.</div>
+									<div class="text">Exceding Expectations and Gaining Trust Through Exceptional Performance.</div>
+									<div class="copyright"><span>Bstan Group</span> <br> &copy; All rights reserved. </div>
 								</div>
 							</div>
 							
@@ -1120,10 +1207,10 @@
                                 <div class="footer-widget links-widget">
 									<h2>What we do</h2>
 									<ul class="footer-list">
-										<li><a href="#">Contruction</a></li>
-										<li><a href="#">Security Services</a></li>
-										<li><a href="#">Real Estate</a></li>
-										<li><a href="#">Cleaning Services</a></li>
+										<li><a href="construction/index.html">Construction</a></li>
+										<li><a href="security/index.html">Security Services</a></li>
+										<li><a href="https://bstanhomes.ng">Real Estate</a></li>
+										<li><a href="cleaning/index.html">Cleaning Services</a></li>
 									</ul>
 								</div>
 							</div>
@@ -1140,11 +1227,11 @@
                                 <div class="footer-widget links-widget">
 									<h2>Sitemap</h2>
 									<ul class="footer-list">
-										<li><a href="#">Home</a></li>
-										<li><a href="#">About</a></li>
-										<li><a href="#">Services</a></li>
-										<li><a href="#">Our Team</a></li>
-										<li><a href="#">Contact us</a></li>
+										<li><a href="#home">Home</a></li>
+										<li><a href="#about">About</a></li>
+										<li><a href="#services">Services</a></li>
+										<li><a href="#team">Our Team</a></li>
+										<li><a href="#projects">Projects</a></li>
 									</ul>
 								</div>
 							</div>
@@ -1170,8 +1257,7 @@
 		</div>
 		<!-- Footer Bottom Image -->
 		<div class="footer-bottom-image">
-				<div>Icons made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"             title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-				<div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"             title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+				<div class="text-center">Icons made by<a href="https://www.freepik.com/" title="Freepik">Freepik</a>  and  <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"             title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 			<div class="image">
 				<img src="images/background/4.jpg" alt="" />
 			</div>
@@ -1190,7 +1276,7 @@
 	<div class="popup-inner">
 		<div class="overlay-layer"></div>
     	<div class="search-form">
-        	<form method="post" action="http://t.commonsupport.com/intenax/index.html">
+        	<form method="post" action="">
             	<div class="form-group">
                 	<fieldset>
                         <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
@@ -1202,11 +1288,11 @@
             <br>
             <h3>Recent Search Keywords</h3>
             <ul class="recent-searches">
-                <li><a href="#">Business</a></li>
-                <li><a href="#">Web Development</a></li>
-                <li><a href="#">SEO</a></li>
-                <li><a href="#">Logistics</a></li>
-                <li><a href="#">Freedom</a></li>
+                <li><a href="#">Address</a></li>
+                <li><a href="#">Guard Services</a></li>
+                <li><a href="#">Corprate Cleaning Service</a></li>
+                <li><a href="#">Construction Services</a></li>
+                <li><a href="#">Affordable Housing</a></li>
             </ul>
         
         </div>
