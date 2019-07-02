@@ -925,10 +925,41 @@ body .transparent-header-container
 /* Hero section */
 .hero {
 	height: 100vh;
+	width: 100%;
 	max-width: 100vw;
 	background: url(../images/slider/image_01.jpg) center center no-repeat;
 	background-size: cover;
 	overflow: hidden;
+	text-align: center;
+	display: table;
+}
+.hero h1 {
+	font-size: 3.5em;
+	color: #ffffff;
+	font-weight: 800;
+	margin-bottom: 50px;
+	line-height: 120px;
+	text-transform: uppercase;
+	text-shadow: 6px 6px 0px (0,0,0,0.2)
+}
+
+.hero h3 {
+	font-size: 2.5em;
+	color: #ffffff;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.4),
+	             0px 18px 23px rgba(0,0,0,0.4);
+}
+/* .hero h3:after {
+	display: block;
+	margin-top: 40px;	
+	content:  "Fuck yeah"
+} */
+.hero .hero-content {
+	display: table-cell;
+	vertical-align: middle;
 }
 /* --- page header --- */
 .page-header
