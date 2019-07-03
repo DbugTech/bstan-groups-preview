@@ -946,7 +946,7 @@ li.cart-dropdown-button a {
 	margin:0
 }
 /*=====================
-8.	Popular Question Section
+8.	Popular Question Section  
 ======================*/
 .according_area {
   margin-bottom: 3px
@@ -1730,7 +1730,7 @@ width: 80px;
 26.	Special Speech
 ======================*/
 .background-5 {
-  background:rgba(0, 0, 0, 0) url("../images/special-speech/1.png") no-repeat fixed 0 0 / cover ;
+  background:rgba(0, 0, 0, 0) url("../images/special-speech/3.jpg") no-repeat fixed 0 0 / cover ;
   background-position: center center;
   font-weight: 500
 }
