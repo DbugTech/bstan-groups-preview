@@ -80,13 +80,18 @@
 												>
 												<ul>
 													<li><a href="https://bstanhomes.ng">Bstan Homes</a></li>
-													<li><a href="/security/index.html">Bstan Security</a></li>
-													<li><a href="/construction/index.html">Bstan Construction</a></li>
-													<li><a href="cleaning/index.html">Bstan Cleaning</a></li>
+													<li><a href="./security/index.html">Bstan Security</a></li>
+													<li><a href="./construction/index.html">Bstan Construction</a></li>
+													<li><a href="./cleaning/index.html">Bstan Cleaning</a></li>
 												</ul>
 											</li>
-											<li><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+											<!-- <li>
+												<a class="nav-link js-scroll-trigger" href="#testimonial"
+													>Testimonials</a
+												>
+											</li> -->
 											<li><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
+											<li><a class="nav-link" href="contact.html">Contact Us</a></li>
 										</ul>
 									</div>
 								</nav>
@@ -822,7 +827,7 @@
 			</section>
 
 			<!-- Testimonial Section -->
-			<section class="testimonial-section" style="background-image:url(images/background/6.jpg)">
+			<section id="testimonial" class="testimonial-section" style="background-image:url(images/background/6.jpg)">
 				<div class="auto-container">
 					<div class="testimonial-carousel owl-carousel owl-theme">
 						<!-- Testimonial Block -->
@@ -1076,6 +1081,63 @@
 			</section>
 			<!--End Sponsors Section-->
 
+			<!-- Contact Section -->
+			<section class="contact-form-section">
+				<div class="pattern-layer" style="background-image:url(images/background/pattern-19.png)"></div>
+				<div class="auto-container">
+					<!-- Title Box -->
+					<div class="sec-title centered">
+						<div class="inner-title">
+							<div class="big-title">BSTAN GROUP</div>
+							<div class="title">contact bstan group</div>
+							<h2>Let’s talk about your project .</h2>
+						</div>
+						<!-- <div class="text">
+							</div> -->
+					</div>
+
+					<!-- Contact Form -->
+					<div class="contact-form">
+						<!--Contact Form-->
+						<form method="post" action="#" id="contact-form">
+							<div class="row clearfix">
+								<div class="form-group col-lg-6 col-md-6 col-sm-12">
+									<input type="text" name="username" placeholder="Name" required />
+								</div>
+
+								<div class="form-group col-lg-6 col-md-6 col-sm-12">
+									<input type="text" name="email" placeholder="Email" required />
+								</div>
+
+								<div class="form-group col-lg-6 col-md-6 col-sm-12">
+									<input
+										type="text"
+										name="service"
+										placeholder="Serivce you are interested in"
+										required
+									/>
+								</div>
+
+								<div class="form-group col-lg-6 col-md-6 col-sm-12">
+									<input type="text" name="phone" placeholder="Phone" required />
+								</div>
+
+								<div class="form-group col-lg-12 col-md-12 col-sm-12">
+									<textarea name="message" placeholder="Message"></textarea>
+								</div>
+
+								<div class="form-group text-center col-lg-12 col-md-12 col-sm-12">
+									<button class="theme-btn btn-style-one" type="submit" name="submit-form">
+										send message
+									</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+			<!-- End Contact Section -->
+
 			<!-- Newsletter Section -->
 			<section class="newsletter-section">
 				<div class="pattern-layer" style="background-image:url(images/background/pattern-7.png)"></div>
@@ -1291,8 +1353,14 @@
 		<script src="js/jquery.fancybox.js"></script>
 		<script src="js/owl.js"></script>
 		<script src="js/wow.js"></script>
+		<script src="js/validate.js"></script>
 		<script src="js/jquery-ui.js"></script>
 		<script src="js/paroller.js"></script>
 		<script src="js/script.js"></script>
+		<!--Google Map APi Key-->
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcaOOcFcQ0hoTqANKZYz-0ii-J0aUoHjk"></script>
+		<script src="js/gmaps.js"></script>
+		<script src="js/map-script.js"></script>
+		<!--End Google Map APi-->
 	</body>
 </html>
